@@ -13,4 +13,4 @@ RUN python -m pip install -r requirements.txt
 COPY . /app
 
 
-CMD flask --app lab2/views run -h 0.0.0.0 -p $PORT
+CMD flask --app lab3/views run -h 0.0.0.0 -p $PORT
